@@ -15,10 +15,7 @@ public class Main
 
         Twilio.init(properties.getProperty("ACCOUNT_SID"), properties.getProperty("AUTH_TOKEN"));
 
-        Message.creator(
-                new PhoneNumber("+15124702879"),
-                new PhoneNumber("+18559560182"),
-                "\"Do or do not, there is no try\" -Yoda")
-                .create();
+        EventController eventController = new EventController();
+        eventController.sendATextEveryHalfHourForTwoHours();
     }
 }
