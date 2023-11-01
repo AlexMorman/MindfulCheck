@@ -1,0 +1,36 @@
+[
+  {
+    "id":1,
+    "phoneNumber":"+15125509414",
+    "eventData" :
+    [
+      {
+        "hour":10,
+        "minute":12,
+        "category":"spiritual1"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "phoneNumber":"+15124702879",
+    "eventData" :
+    [
+      {
+        "hour":11,
+        "minute":0,
+        "category":"spiritual1"
+      },
+      {
+        "hour":14,
+        "minute":0,
+        "category":"bibleFaith"
+      },
+      {
+        "hour":17,
+        "minute":0,
+        "category":"bibleAnxious"
+      }
+    ]
+  }
+]
